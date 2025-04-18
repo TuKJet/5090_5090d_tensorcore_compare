@@ -17,7 +17,7 @@
 
 ## cuda环境
 这一步应该大部分炼丹师都能搞定,如果是linux系统直接装了docker拉nv的最新镜像.
-本人环境是win11下的wsl里装的,理论上有性能衰减,cuda的安装流程可以参考llama-factory中一个issue的流程-->[wsl2安装cuda环境](https://github.com/NVIDIA/cutlass/issues/2186)  
+本人环境是win11下的wsl里装的,理论上有性能衰减,cuda的安装流程可以参考llama-factory中一个issue的流程-->[wsl2安装cuda环境](https://github.com/hiyouga/LLaMA-Factory/issues/6958)  
 具体踩这种坑就不多说了,资料很多,如果只想试试cutlass跑tensor core差异,torch安装那一部分往下的步骤都可以跳过.
 
 ## 使用cuda编译cutlass
